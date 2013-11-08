@@ -34,7 +34,6 @@
 @property (nonatomic, weak) UIScrollView *scrollView;
 @property (nonatomic) UIView *pullBottomRefreshView;
 @property (nonatomic) BOOL canRefresh;
-@property (nonatomic) BOOL isAlreadyRefresh;
 @property (nonatomic) BOOL canRefreshSendEvent;
 @end
 

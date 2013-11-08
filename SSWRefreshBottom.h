@@ -33,6 +33,7 @@
 #define DEFAULT_HEIGHT 44
 
 @interface SSWRefreshBottom : UIControl
+@property (nonatomic) BOOL isAlreadyRefresh;
 - (id)initInTableView:(UIScrollView *)scrollView;
 - (void)beginRefreshing;
 - (void)endRefreshing;
